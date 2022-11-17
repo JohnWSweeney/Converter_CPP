@@ -1,10 +1,9 @@
-#include<iostream>
-#include "mass.h"
+#include "header.h"
 
 float getMass()
 {
 	float massInput;
-	std::cout << "Enter mass" << std::endl;
+	std::cout << "Enter mass:" << std::endl;
 	std::cin >> massInput;
 	return massInput;
 };

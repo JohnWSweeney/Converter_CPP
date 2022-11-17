@@ -123,9 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="mass.h" />
-    <ClInclude Include="select.h" />
-    <ClInclude Include="temp.h" />
+    <ClInclude Include="header.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

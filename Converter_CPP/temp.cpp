@@ -1,10 +1,10 @@
-#include<iostream>
-#include "temp.h"
+#include "header.h"
 
 float GetTemp()
 {
 	float tempInput;
-	std::cout << "Enter temperature" << std::endl;
+	std::cout << "-------------------------------------" << std::endl;
+	std::cout << "Enter temperature:" << std::endl;
 	std::cin >> tempInput;
 	return tempInput;
 };
